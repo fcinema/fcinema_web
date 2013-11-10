@@ -5,14 +5,27 @@
     <title>Fcinema</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
-    <link href="css/style.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"> 
     <link href="css/style.css" rel="stylesheet" media="screen">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $.fn.fullpage();
+      });
+    </script>
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-default navbar-static-top" role="navigation">
+      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -35,18 +48,70 @@
           </ul>
         </div><!-- /.navbar-collapse -->
       </nav>
-      <article class="jumbotron">
-        <section class="container">
-          <h1>Porque ver una película en familia debería ser tan simple con darle al play</h1>
-          <button type="button" class="btn btn-success">Descargar ahora</button>
-          <p class="small">Versión 0.1</p>
-        </section>
-      </article>
-    <header>
+    </header>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <article class="jumbotron section">
+      <section class="container">
+        <h1>Porque ver una película en familia debería ser tan simple con darle al play</h1>
+        <button type="button" class="btn btn-success">Descargar ahora</button>
+        <p class="small">Versión 0.1</p>
+      </section>
+    </article>
+
+    <article class="function section row">
+        <section class="slide">
+          <h2>¿Cómo funciona?</h2>
+        </section>
+
+        <section class="slide play">
+          <img src="img/1.png" alt="..." class="img-circle img-responsive">
+          <h3>Play</h3>
+          <p>Pon la película en tu reproductor favorito.</p>
+        </section>
+
+        <section class="choose slide">
+          <img src="img/2.png" alt="..." class="img-circle img-responsive">
+          <h3>Selecciona</h3>
+          <p>Elige las escenas que deseas eliminar.</p>
+        </section>
+
+        <section class="watch slide">
+          <img src="img/3.png" alt="..." class="img-circle img-responsive">
+          <h3>Disfruta</h3>
+          <p>La película se reproducirá con toda normalidad, no notarás que se ha reducido.</p>
+        </section>
+    </article>
+
+    <article class="colaborate section">
+        <section class="slide">
+          <h2>Colabora</h2>
+        </section>
+
+        <section class="escenes play">
+          <img src="img/1.png" alt="..." class="img-circle img-responsive">
+          <h3>Selecciona escenas</h3>
+          <p>Al finalde la película podrás introducir escenas que piensas deberían ser eliminadas.</p>
+        </section>
+
+        <section class="share slide">
+          <img src="img/2.png" alt="..." class="img-circle img-responsive">
+          <h3>Comparte</h3>
+          <p>Cuantos más usemos Fcinema, de mayor calidad serán los datos, así que no dudes en darlo a conocer.</p>
+        </section>
+
+        <section class="develop slide">
+          <i class="fa fa-code"></i>
+          <h3>Desarrolla</h3>
+          <p>¿Sabes programar o diseñar? Entonces colabora con el proyecto en Github.</p>
+        </section>
+
+        <section class="pay slide">
+          <img src="img/3.png" alt="..." class="img-circle img-responsive">
+          <h3>Ayuda a mantener los servidores</h3>
+          <p>Fcinema, pese a ser gratuito, requiere de unos servidores de pago para su funcionamiento. Dona para ayudar a mantenerlos.</p>
+        </section>
+    </article>
+
+
   </body>
 </html>

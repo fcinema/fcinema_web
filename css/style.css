@@ -1,6 +1,11 @@
 /*Stylesheet de Fcinema
 */
 
+body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
 /* 
 ---------Navbar------------
 */
@@ -34,4 +39,32 @@ header .small{
 	}
 }
 
+
+/* 
+---------Body------------
+*/
+
+.function{
+	color: #FFFFFF;
+	background-color: #2781b9;
+	
+}
+
+.slide{
+	text-align: center;
+}
+
+.slide img{
+	margin-left: 42%;
+}
+
+
+.colaborate{
+	color: #FFFFFF;
+	background-color: #29ad60;
+}
+
+.fa{
+	font-size: 20em;
+}
 
