@@ -13,6 +13,7 @@ body{
 	width: 90%;
 }
 
+
 /* 
 ---------Navbar------------
 */
@@ -57,27 +58,44 @@ body{
 
 
 /* 
----------Body------------
+---------Function------------
 */
 
 .function{
 	color: #FFFFFF;
-	background-color: #2781b9;
+	background-color: #29ad60;
 	
 }
 
-.slide{
+.unicode{
+	color: #FFFFFF;
+	font-size: 10em;
+}
+
+.function h2{
+	margin-left: 5%;
+	margin-top: -10%;
+}
+
+.function p{
+	text-align: center;
+}
+
+.function h3{
 	text-align: center;
 }
 
 .slide img{
-	margin-left: 42%;
+	margin-left: 50%;
 }
 
+/* 
+---------Colaborate------------
+*/
 
 .colaborate{
 	color: #FFFFFF;
-	background-color: #29ad60;
+	background-color: #2781b9;
 }
 
 .fa{
