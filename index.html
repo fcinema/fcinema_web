@@ -5,24 +5,13 @@
     <title>Fcinema</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
-    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
-
     <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"> 
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/style.css" rel="stylesheet" media="screen">
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
 
-    <script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
-    <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
-
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $.fn.fullpage();
-      });
     </script>
     <script src="js/bootstrap.min.js"></script>
   </head>
@@ -45,15 +34,18 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Inicio</a></li>
-            <li><a href="#">Sobre el proyecto</a></li>
-            <li><a href="#">Descargas</a></li>
+            <li><a href="#function" data-target="article">Sobre el proyecto</a></li>
             <li><a href="#">Colabora</a></li>
+            <li><a href="#">Descargas</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </nav>
     </header>
-
-    <article class="jumbotron section">
+    <!--
+          Navbar end
+                        -->
+    
+    <article class="jumbotron">
       <section class="container">
         <h1 class="text-center" id="mainh">Porque ver una película en familia debería ser tan simple como darle al play</h1>
         <button type="button" class="btn btn-success">Descargar ahora</button>
@@ -61,20 +53,22 @@
       </section>
     </article>
 
-    <article class="function section row">
+    <article class="function row">
       <div class="container">
         <h2>¿Cómo funciona?</h2>
-
+        
         <section class="col-md-4">
           <p class="unicode">&#x2460;</p>
           <h3>Play</h3>
           <p>Pon la película en tu reproductor favorito.</p>
         </section>
+        
         <section class="col-md-4">
           <p class="unicode">&#x2461;</p>
           <h3>Selecciona</h3>
           <p>Elige las escenas que deseas eliminar.</p>
         </section>
+        
         <section class="col-md-4">
           <p class="unicode">&#x2462;</p>
           <h3>Disfruta</h3>
@@ -83,34 +77,30 @@
       </div>
     </article>
 
-    <article class="colaborate section">
-        <section class="slide">
+    <article class="colaborate row">
+      <div class="container"
+        <section class="">
           <h2>Colabora</h2>
         </section>
 
-        <section class="escenes play">
-          <img src="img/1.png" alt="..." class="img-circle img-responsive">
-          <h3>Selecciona escenas</h3>
-          <p>Al finalde la película podrás introducir escenas que piensas deberían ser eliminadas.</p>
-        </section>
-
-        <section class="share slide">
+        <section class="share col-md-4">
           <img src="img/2.png" alt="..." class="img-circle img-responsive">
           <h3>Comparte</h3>
           <p>Cuantos más usemos Fcinema, de mayor calidad serán los datos, así que no dudes en darlo a conocer.</p>
         </section>
 
-        <section class="develop slide">
+        <section class="develop col-md-4">
           <i class="fa fa-code"></i>
           <h3>Desarrolla</h3>
           <p>¿Sabes programar o diseñar? Entonces colabora con el proyecto en Github.</p>
         </section>
 
-        <section class="pay slide">
+        <section class="pay col-md-4">
           <img src="img/3.png" alt="..." class="img-circle img-responsive">
           <h3>Ayuda a mantener los servidores</h3>
           <p>Fcinema, pese a ser gratuito, requiere de unos servidores de pago para su funcionamiento. Dona para ayudar a mantenerlos.</p>
         </section>
+      </div>
     </article>
 
 
