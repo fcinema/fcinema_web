@@ -21,18 +21,23 @@ body{
 .navbar{
 	background-color: #FFFFFF;
 	color: #000000;
+	padding-left: 6%;
+	padding-right: 6%;
 }
+
 
 /* 
 ---------Jumbotron------------
 */
 
 .jumbotron{
+  padding-top: 20%;
 	background-image: url('../img/jumbotron.jpg');
+  padding-bottom: 15%;
+	margin-bottom: 0px;
 }
 
 .jumbotron h1{
-	margin-top: -10%;
 	color: #FFFFFF;
 	text-align: center;
 }
@@ -62,19 +67,20 @@ body{
 */
 
 .function{
+  padding-top: 2%;
 	color: #FFFFFF;
-	background-color: #29ad60;
+	background-color: #33b86b;
+	margin-top: 0px;
 	
 }
 
 .unicode{
-	color: #FFFFFF;
+	color: #0c6e35;
 	font-size: 10em;
 }
 
 .function h2{
 	margin-left: 5%;
-	margin-top: -10%;
 }
 
 .function p{
@@ -96,9 +102,23 @@ body{
 .colaborate{
 	color: #FFFFFF;
 	background-color: #2781b9;
+	padding-top: 2%;
+}
+
+.colaborate h2{
+	margin-left: 5%;
+}
+
+.colaborate p{
+	text-align: center;
+}
+
+.colaborate h3{
+	text-align: center;
 }
 
 .fa{
+  margin-top: 2%;
 	font-size: 10em;
 
 }
