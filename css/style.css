@@ -1,4 +1,13 @@
-/*Stylesheet de Fcinema
+/*
+  Fcinema
+  
+  URL: www.fcinema.org
+  Author: Ricardo García (@rjgarciam)
+  Author website: www.rjgarcia.es
+  
+  Site version: 0.6
+
+
 */
 
 body{
@@ -11,6 +20,24 @@ body{
 	margin-right: 5%;
 	margin-left: 5%;
 	width: 90%;
+}
+
+p{
+  color: #5B6064;
+    font-family: 'Roboto Slab', serif;
+    font-weight: light
+}
+
+h3{
+  color: #5B6064;
+  font-family: 'Roboto Slab', serif;
+  font-weight: thin 
+}
+
+h4{
+  color: #5B6064;
+  font-family: 'Roboto Slab', serif;
+  font-weight: thin
 }
 
 
@@ -53,11 +80,10 @@ body{
 
 @media (max-width: 480px) {
 	.btn{
-		margin-right: 20%;
-		margin-left: 30%;
+		margin-left: 18%;
 	}
 	.small{
-		margin-left: 38%;
+		margin-left: 30%;
 	}
 }
 
@@ -67,15 +93,17 @@ body{
 */
 
 .function{
+  color: #5B6064;
   padding-top: 2%;
-	color: #FFFFFF;
-	background-color: #33b86b;
 	margin-top: 0px;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	min-height: 20%;
 	
 }
 
 .unicode{
-	color: #0c6e35;
+	color: rgba(89,94,99,0.13);
 	font-size: 10em;
 }
 
@@ -100,8 +128,6 @@ body{
 */
 
 .colaborate{
-	color: #FFFFFF;
-	background-color: #2781b9;
 	padding-top: 2%;
 }
 
@@ -109,17 +135,56 @@ body{
 	margin-left: 5%;
 }
 
-.colaborate p{
-	text-align: center;
-}
-
 .colaborate h3{
 	text-align: center;
 }
 
-.fa{
+colaborate .fa{
   margin-top: 2%;
 	font-size: 10em;
-
 }
 
+.upload p{
+  text-align: right;
+}
+
+/* 
+---------Footer------------
+*/
+
+footer{
+  border-top:  1px solid #DBE3E3;
+  background-color: #F6F6F6;
+}
+
+.fa{
+  color: #5B6064;
+}
+
+.fa-twitter{
+  color: white;
+}
+
+.fa-facebook{
+  color: white;
+}
+
+footer p{
+  text-align: justify;
+}
+
+footer strong{
+  margin-left: 20%;
+}
+
+.jumbotron2{
+  padding-top: 10%;
+	background-image: url('../img/jumbotron.jpg');
+  padding-bottom: 10%;
+	margin-bottom: 0px;
+}
+
+#h2jumbo{
+  color: #FFFFFF;
+  font-size: 3em;
+}
