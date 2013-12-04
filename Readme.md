@@ -1,7 +1,7 @@
 #Fcinema
 
 Fcinema's project official website  
-Version 0.1
+Version 0.6 (pre-alpha)
 ***
 
 #####Technical Characteristics
@@ -9,6 +9,7 @@ Version 0.1
 * Twitter Bootstrap
 * Responsive design
 * HTML5 & CSS3
+* Parallax effect (coming soon)
 
 #####Disclaimer
 This repository is undergoing heavy develpment
