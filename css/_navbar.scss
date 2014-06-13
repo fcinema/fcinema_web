@@ -9,12 +9,140 @@
 /* navbar */
 
 @media (max-width: 768px) {
-    .navbar-default {
+    #principal .navbar-default {
         background-color: #F8F8F8;
         border-color: #E7E7E7;
         width: 125.3%;
         margin-left: -13%;
         margin-top: -6.5%;
+    }
+    /* title */
+    #principal .navbar-default .navbar-brand {
+        color: #777;
+    }
+    #principal .navbar-default .navbar-brand:hover,
+    #principal .navbar-default .navbar-brand:focus {
+        color: #5E5E5E;
+    }
+    /* link */
+    #principal .navbar-default .navbar-nav > li > a {
+        color: #777;
+        font-size: 1em;
+    }
+    #principal .navbar-default .navbar-nav > li > a:hover,
+    #principal .navbar-default .navbar-nav > li > a:focus {
+        color: #333;
+
+    }
+    #principal .navbar-default .navbar-nav > .active > a, 
+    #principal .navbar-default .navbar-nav > .active > a:hover, 
+    #principal .navbar-default .navbar-nav > .active > a:focus {
+        border-bottom-color: #ffffff;
+
+    }
+    #principal .navbar-default .navbar-nav > .open > a, 
+    #principal .navbar-default .navbar-nav > .open > a:hover, 
+    #principal .navbar-default .navbar-nav > .open > a:focus {
+        color: #555;
+        background-color: #D5D5D5;
+    }
+    /* caret */
+    #principal .navbar-default .navbar-nav > .dropdown > a .caret {
+        border-top-color: #777;
+        border-bottom-color: #777;
+    }
+    #principal .navbar-default .navbar-nav > .dropdown > a:hover .caret,
+    #principal .navbar-default .navbar-nav > .dropdown > a:focus .caret {
+        border-top-color: #333;
+        border-bottom-color: #333;
+    }
+    #principal .navbar-default .navbar-nav > .open > a .caret, 
+    #principal .navbar-default .navbar-nav > .open > a:hover .caret, 
+    #principal .navbar-default .navbar-nav > .open > a:focus .caret {
+        border-top-color: #555;
+        border-bottom-color: #555;
+    }
+    /* mobile version */
+    #principal .navbar-default .navbar-toggle {
+        border-color: #DDD;
+    }
+    #principal .navbar-default .navbar-toggle:hover,
+    #principal .navbar-default .navbar-toggle:focus {
+        background-color: #DDD;
+    }
+    #principal .navbar-default .navbar-toggle .icon-bar {
+        background-color: #CCC;
+    }
+}
+
+@media (min-width: 768px) {
+    #principal .navbar-default {
+        background-color: transparent;
+        border-color: transparent;
+    }
+    /* title */
+    #principal .navbar-default .navbar-brand {
+        color: #FFFFFF;
+        font-size: 2em;
+        font-style: bold;
+    }
+    #principal .navbar-default .navbar-brand:hover,
+    #principal .navbar-default .navbar-brand:focus {
+        color: #FFFFFF;
+    }
+    /* link */
+    #principal .navbar-default .navbar-nav > li > a {
+        color: #FFFFFF;
+        font-size: 1.2em
+        
+    }
+    #principal .navbar-default .navbar-nav > li > a:hover,
+    #principal .navbar-default .navbar-nav > li > a:focus {
+        color: #FFFFFF;
+        background-color: transparent;
+        border-bottom-color: #ffffff;
+        border-bottom-width: medium;
+        border-bottom-style: solid;
+    }
+    #principal .navbar-default .navbar-nav > .active > a, 
+    #principal .navbar-default .navbar-nav > .active > a:hover, 
+    #principal .navbar-default .navbar-nav > .active > a:focus {
+        color: #ffffff;
+        background-color: transparent;
+        border-bottom-color: #ffffff;
+        border-bottom-width: medium;
+        border-bottom-style: solid;
+    }
+    #principal .navbar-default .navbar-nav > .open > a, 
+    #principal .navbar-default .navbar-nav > .open > a:hover, 
+    #principal .navbar-default .navbar-nav > .open > a:focus {
+    }
+
+    #principal .navbar-default .navbar-nav > .open > a .caret, 
+    #principal .navbar-default .navbar-nav > .open > a:hover .caret, 
+    #principal .navbar-default .navbar-nav > .open > a:focus .caret {
+        border-top-color: #555;
+        border-bottom-color: #555;
+    }
+    /* mobile version */
+    #principal .navbar-default .navbar-toggle {
+        border-color: #DDD;
+    }
+    #principal .navbar-default .navbar-toggle:hover,
+    #principal .navbar-default .navbar-toggle:focus {
+        background-color: #DDD;
+    }
+    #principal .navbar-default .navbar-toggle .icon-bar {
+        background-color: #CCC;
+    }
+}
+
+
+//Navigation bar for non-index pages
+
+    .navbar-default {
+        background-color: #F8F8F8;
+        border-color: #E7E7E7;
     }
     /* title */
     .navbar-default .navbar-brand {
@@ -73,67 +201,4 @@
     .navbar-default .navbar-toggle .icon-bar {
         background-color: #CCC;
     }
-}
-
-@media (min-width: 768px) {
-    .navbar-default {
-        background-color: transparent;
-        border-color: transparent;
-    }
-    /* title */
-    .navbar-default .navbar-brand {
-        color: #FFFFFF;
-        font-size: 2em;
-        font-style: bold;
-    }
-    .navbar-default .navbar-brand:hover,
-    .navbar-default .navbar-brand:focus {
-        color: #FFFFFF;
-    }
-    /* link */
-    .navbar-default .navbar-nav > li > a {
-        color: #FFFFFF;
-        font-size: 1.2em
-        
-    }
-    .navbar-default .navbar-nav > li > a:hover,
-    .navbar-default .navbar-nav > li > a:focus {
-        color: #FFFFFF;
-        background-color: transparent;
-        border-bottom-color: #ffffff;
-        border-bottom-width: medium;
-        border-bottom-style: solid;
-    }
-    .navbar-default .navbar-nav > .active > a, 
-    .navbar-default .navbar-nav > .active > a:hover, 
-    .navbar-default .navbar-nav > .active > a:focus {
-        color: #ffffff;
-        background-color: transparent;
-        border-bottom-color: #ffffff;
-        border-bottom-width: medium;
-        border-bottom-style: solid;
-    }
-    .navbar-default .navbar-nav > .open > a, 
-    .navbar-default .navbar-nav > .open > a:hover, 
-    .navbar-default .navbar-nav > .open > a:focus {
-    }
-
-    .navbar-default .navbar-nav > .open > a .caret, 
-    .navbar-default .navbar-nav > .open > a:hover .caret, 
-    .navbar-default .navbar-nav > .open > a:focus .caret {
-        border-top-color: #555;
-        border-bottom-color: #555;
-    }
-    /* mobile version */
-    .navbar-default .navbar-toggle {
-        border-color: #DDD;
-    }
-    .navbar-default .navbar-toggle:hover,
-    .navbar-default .navbar-toggle:focus {
-        background-color: #DDD;
-    }
-    .navbar-default .navbar-toggle .icon-bar {
-        background-color: #CCC;
-    }
-}
 

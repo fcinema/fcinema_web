@@ -10,6 +10,9 @@
 
 @import "variables.scss";
 @import "navbar.scss";
+@import "navpill.scss";
+@import "footer.scss";
+
 
 body{
   height: 100% !important;
@@ -19,26 +22,37 @@ body{
 /* Header */
 
 .navbar-default .navbar-header .navbar-brand{
-  font-weight: 100;
-  font-size: 3em;
+  font-weight: 100 !important;
+  font-size: 3em !important;
 }
 
  
 /* landing Styles */
 
-.landing{
+#principal {
   padding-top: 5%;
   padding-left: 10%;
   padding-right: 10%;
+}
+
+#principal h1{
+  color: #FFFFFF;
+  margin-top: 10%;
+  text-align: center; 
+}
+
+.landing{
   background-image: url('../img/jumbotron.jpg');
 }
 
-
 .landing h1{
   color: #FFFFFF;
-  margin-top: 10%;
-  text-align: center;
+  margin-left: 5%;
+  margin-top: 5%;
+  padding-bottom: 5%; 
 }
+
+
 
 
 
@@ -75,8 +89,3 @@ body{
   text-align: right;
 }
 
-/* Footer */
-
-footer{
-  background-color: #e7e7e7;
-}
