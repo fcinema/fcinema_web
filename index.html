@@ -1,166 +1,138 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Ricardo José García">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
     <title>Fcinema</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="css/style.css" rel="stylesheet" media="screen">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:100,300,700' rel='stylesheet' type='text/css'>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
-    </script>
-    <script src="js/bootstrap.min.js"></script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
+
   <body>
-    <header>
-      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <!--Insertar logo como img en brand-->
-          <a class="navbar-brand" href="#">Fcinema</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#function" data-target="article">Sobre el proyecto</a></li>
-            <li><a href="#">Colabora</a></li>
-            <li><a href="#">Descargas</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
+    
+    <article class="landing" id="principal">
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><b>f</b>cinema</a>
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">How it works</a></li>
+              <li><a href="#">Colaborate</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Donwloads</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
       </nav>
-    </header>
-    <!--
-          Navbar end
-                        -->
-    
-    <article class="jumbotron">
-      <section class="container">
-        <h1 class="text-center" id="mainh">Porque ver una película en familia debería ser tan simple como darle al play</h1>
-        <button type="button" class="btn btn-success">Descargar ahora</button>
-        <p class="small">Versión 0.1</p>
-      </section>
-    </article>
-
-    <article class="function row">
-      <div class="container">
-        <h2>¿Cómo funciona?</h2>
-        
-        <section class="col-md-4">
-          <p class="unicode">&#x2460;</p>
-          <h3>Play</h3>
-          <p>Pon la película en tu reproductor favorito.</p>
-        </section>
-        
-        <section class="col-md-4">
-          <p class="unicode">&#x2461;</p>
-          <h3>Selecciona</h3>
-          <p>Elige las escenas que deseas eliminar.</p>
-        </section>
-        
-        <section class="col-md-4">
-          <p class="unicode">&#x2462;</p>
-          <h3>Disfruta</h3>
-          <p>La película se reproducirá con toda normalidad, no notarás que se ha reducido.</p>
-        </section>
-      </div>
-    </article>
-
-    <article class="jumbotron2">
-      <section class="container">
-        <h2 class="text-center" id="h2jumbo">Fcinema está desarrollado por voluntarios, tú también puedes colaborar</h2>
-      </section>
+      
+      <h1>Watching a film in family, the easy way</h1>
+      
+      <img src="img/mac.png" class="img-responsive" width="100%" alt="film throught fcinema">
     </article>
     
-    <article class="colaborate">
-      <div class="container">
-        <section class="row upload">
-          <div class="col-md-4 col-md-offset-4">
-            <h3>Añade películas</h3>
-            <p>Sé el primer en ve la película, selecciona las escenas que consideres oportunas y amplía la base de datos.</p>
-          </div>
-          <div class="col-md-3 col-md-offset-1">
-            <img src="img/#" class="img-responsive">
-          </div>
-        </section>
-        
-        <hr>
-        <section class="row translate">
-          <div class="col-md-3">
-            <img src="img/#" class="img-responsive">
-          </div>
-          <div class="col-md-4">
-            <h3>¿Hablas otro idioma?</h3>
-            <p>Ayúdanos a traducir Fcinema, y permitir así su uso a personas de cualquier lugar del mundo.</p>
-          </div>
-        </section>
-        
-        <hr>
-        <section class="row upload">
-          <div class="col-md-4 col-md-offset-4">
-            <h3>¿Eres diseñador?</h3>
-            <p>Contribuye perfeccionando el diseño de Fcinema, ya sea el plugin, su logotipo, o esta web. Todo está disponible en Github</p>
-          </div>
-          <div class="col-md-3 col-md-offset-1">
-            <img src="img/#" class="img-responsive">
-          </div>
-        </section>
-        
-        <hr>
-        
-        <section class="row design">
-          <div class="col-md-3">
-            <img src="img/#" class="img-responsive">
-          </div>
-          <div class="col-md-4">
-            <h3>Desarrolla</h3>
-            <p>Tanto esta web como el plugin de Fcinema son software libre disponible en Github, ¿A qué esperas para mejoralos?.</p>
-          </div>
-        </section>
-        
-        <hr>
-        <section class="row upload">
-          <div class="col-md-4 col-md-offset-4">
-            <h3>Ayuda a mantener los servidores</h3>
-            <p>Pese a ser gratuito, Fcinema tiene un coste en servidores para que esté disponible a cualquiera. Por ello, si te a resultado útil, te pedimos que consideres hacer un pequeño donativo para mantenerlo en funcionamiento.</p>
-          </div>
-          <div class="col-md-3 col-md-offset-1">
-            <img src="img/#" class="img-responsive">
-          </div>
-        </section>
+    <div class="container">
+      <article class="quotes">
+          <p><span>&#10077;</span>Changing the way<br> families watch films. <span>&#10078;</span><br><small>Miguel Arrieta | CEO at fcinema</small></p>
+      </article>
+      
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Tranquillity. <span class="text-muted">The main advantage.</span></h2>
+          <p class="lead">Watch a film without fear, the scenes you choose would be ommitted, even offline.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
       </div>
-    </article>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Easy to use. <span class="text-muted">Even for grandma.</span></h2>
+          <p class="lead">In fcinema, we work to make our software as easy as possible, so even grandma can watch a film in a sip.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">By volunteers. <span class="text-muted">For free, forever.</span></h2>
+          <p class="lead">At fcinema we think that watching a film without worries should be a right, so we offer fcinema for free. That said, we have to keep server goings, so a donation (or help) always comes handy.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+      
+        
+      </article>
+    </div>
     
     <footer>
       <article class="container row">
         <section class="col-md-4">
           <h4>Sigue a Fcinema en:</h4><br>
           
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-twitter fa-stack-1x"></i>
-          </span>
-          
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-facebook fa-stack-1x"></i>
-          </span>
-
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-github fa-stack-2x"></i>
-          </span>
+          <div class="logos">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-twitter fa-stack-1x"></i>
+            </span>
+            
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-facebook fa-stack-1x"></i>
+            </span>
+  
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-github fa-stack-2x"></i>
+            </span>
+          </div>
         </section>
         <section class="col-md-4">
           <h4>Contáctanos</h4>
@@ -169,11 +141,15 @@
 
         </section>
         <section class="col-md-4">
-          
+          <h3>Twitter timeline</h3>
         </section>
       </article>
     </footer>
 
-
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
