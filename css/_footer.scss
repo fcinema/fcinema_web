@@ -3,33 +3,14 @@
 footer{
   background-color: #f6f6f6;
   padding-left: 10%;
+  text-align: center;
 }
 
 footer p{
   color: #5B6064;
-    font-family: 'Roboto Slab', serif;
-    font-weight: light;
+  font-family: 'Roboto Slab', serif;
+  font-weight: light;
 }
-
-
-.social span{
-  margin-left: 3%;
-  font-size: 2em;
-}
-
-
-.fa{
-  color: #5B6064;
-}
-
-.fa-twitter{
-  color: white;
-}
-
-.fa-facebook{
-  color: white;
-}
-
 
 .download{
   margin-top: 5%;
@@ -38,4 +19,48 @@ footer p{
 
 .download small{
   margin-left: 4%;
+}
+
+footer .logos{
+  text-align: left;
+}
+
+footer .logos div{
+  margin-top: -3%;
+}
+
+.twitter {
+  width: 48px;
+  height:48px;
+  display:block;
+  background:transparent url('../img/twitter-b.png')  center top no-repeat;
+  background-size: cover;
+}
+
+.twitter:hover {
+  background-image: url('../img/twitter-c.png');
+}
+
+.facebook {
+  width: 48px;
+  height:48px;
+  display:block;
+  background:transparent url('../img/facebook-b.png')  center top no-repeat;
+  background-size: cover;
+}
+
+.facebook:hover {
+  background-image: url('../img/facebook-c.png');
+}
+
+.github {
+  width: 48px;
+  height:48px;
+  display:block;
+  background:transparent url('../img/github-b.png')  center top no-repeat;
+  background-size: cover;
+}
+
+.github:hover {
+  background-image: url('../img/github-c.png');
 }
