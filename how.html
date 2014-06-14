@@ -50,7 +50,6 @@
               <li class="active"><a href="#">How it works</a></li>
               <li><a href="#">Colaborate</a></li>
               <li><a href="#">About</a></li>
-              <li><a href="#">Donwloads</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -99,7 +98,7 @@
                 </div>
                 <div id="collapseTwo" class="panel-collapse collapse">
                   <div class="panel-body">
-                    It's a little harder to install, but don't worry, it keeps being easy, and just after it leaves beta, you could just launch a <i>.dmg</i>. For now, go to applications folder and right-click <i>Vlc.app</i>. Press <i>Show Package Content</i> and navigate to a folder called <i>Plugins</i> or create it. Then, you just have to copy the plugin file to that folder and start enjoying.
+                    <p>It's a little harder to install, but don't worry, it keeps being easy, and just after it leaves beta, you could just launch a <i>.dmg</i>. For now, go to applications folder and right-click <i>Vlc.app</i>. Press <i>Show Package Content</i> and navigate to a folder called <i>Plugins</i> or create it. Then, you just have to copy the plugin file to that folder and start enjoying.</p>
                     
                     <iframe width="560" height="315" src="http://www.youtube.com/embed/VpZmIiIXuZ0" frameborder="0" allowfullscreen></iframe>
                   </div>
@@ -115,7 +114,7 @@
                 </div>
                 <div id="collapseThree" class="panel-collapse collapse">
                   <div class="panel-body">
-                    First of all, congratulations, the plugin is being developed over a Linux distribution so you will be the first on receive updates. However, installing is a bit complex,...
+                    <p>First of all, congratulations, the plugin is being developed over a Linux distribution so you will be the first on receive updates. However, installing is a bit complex,...</p>
                     
                     <iframe width="560" height="315" src="http://www.youtube.com/embed/VpZmIiIXuZ0" frameborder="0" allowfullscreen></iframe>
                   </div>
@@ -135,7 +134,7 @@
     
     <footer>
       <article class="container row">
-        <section class="logos col-md-4">
+        <section class="logos col-md-3">
           <h4>Sigue a Fcinema en:</h4><br>
           
           <div class="row">
@@ -144,14 +143,19 @@
             <a href="#" class="github col-md-4" title="Twitter link"></a>     
           </div>
         </section>
+        <section class="col-md-5">
+          <h4>Download fcinema</h4>
+          <!-- Button trigger modal -->
+          <button class="btn btn-success" data-toggle="modal" data-target="#download">Download</button><br>
+          <small>Version 0.2</small>
+          
+
+        </section>
         <section class="col-md-4">
           <h4>Contact Us</h4>
           <p>We care for our users, your opinion make us (even) better<p> 
           <strong>feedback@fcinema.org</strong>
 
-        </section>
-        <section class="col-md-4">
-          <h3>Twitter timeline</h3>
         </section>
       </article>
     </footer>
@@ -161,5 +165,30 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    
+
+
+<!-- Modal 
+================================================== -->
+
+<div class="modal fade" id="download" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Download fcinema</h4>
+      </div>
+      <div class="modal-body">
+        <h4>Selecciona tu sistema operativo</h4>
+        <button class="btn btn-primary" data-toggle="modal" data-target="#download">Windows <img src="img/win8.png" width="32px"> </button>
+        <button class="btn btn-primary" data-toggle="modal" data-target="#download">Mac <img src="img/apple.png" width="32px"></button>
+        <button class="btn btn-primary" data-toggle="modal" data-target="#download">Linux <img src="img/linux.png" width="32px"></button>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
   </body>
 </html>
