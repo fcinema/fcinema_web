@@ -51,7 +51,6 @@
               <li><a href="#">How it works</a></li>
               <li><a href="#">Colaborate</a></li>
               <li><a href="#">About</a></li>
-              <li><a href="#">Donwloads</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -63,10 +62,7 @@
     </article>
     
     <div class="container">
-      <article class="quotes">
-          <p><span>&#10077;</span>Changing the way<br> families watch films. <span>&#10078;</span><br><small>Miguel Arrieta | CEO at fcinema</small></p>
-      </article>
-      
+      <h1 class="">¿Why fcinema?</h1>      
       <!-- START THE FEATURETTES -->
 
       <hr class="featurette-divider">
@@ -75,9 +71,10 @@
         <div class="col-md-7">
           <h2 class="featurette-heading">Tranquillity. <span class="text-muted">The main advantage.</span></h2>
           <p class="lead">Watch a film without fear, the scenes you choose would be ommitted, even offline.</p>
+          <p class="lead" style="margin-top:10%"><small>*for offline use, you should have pre-download the film data.</small></p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="img/safe.jpg" alt="Lighthouse, fcinema keep you safe" width="220">
         </div>
       </div>
 
@@ -85,11 +82,11 @@
 
       <div class="row featurette">
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="img/play.png" alt="play button for fcinema" width="220">
         </div>
         <div class="col-md-7">
-          <h2 class="featurette-heading">Easy to use. <span class="text-muted">Even for grandma.</span></h2>
-          <p class="lead">In fcinema, we work to make our software as easy as possible, so even grandma can watch a film in a sip.</p>
+          <h2 class="featurette-heading">Easy to use. <span class="text-muted">One-click filter.</span></h2>
+          <p class="lead">In fcinema, we work to make our software as easy as possible, so so you can start watching a film in a sip.</p>
         </div>
       </div>
 
@@ -101,7 +98,7 @@
           <p class="lead">At fcinema we think that watching a film without worries should be a right, so we offer fcinema for free. That said, we have to keep server goings, so a donation (or help) always comes handy.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="img/voluntarios.png" alt="fcinema sass code image" width="220">
         </div>
       </div>
 
@@ -115,33 +112,28 @@
     
     <footer>
       <article class="container row">
-        <section class="col-md-4">
+        <section class="logos col-md-3">
           <h4>Sigue a Fcinema en:</h4><br>
           
-          <div class="logos">
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-twitter fa-stack-1x"></i>
-            </span>
-            
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-facebook fa-stack-1x"></i>
-            </span>
-  
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-github fa-stack-2x"></i>
-            </span>
+          <div class="row">
+            <a href="#" class="twitter col-md-4" title="Twitter link"></a>
+            <a href="#" class="facebook col-md-4" title="Twitter link"></a>
+            <a href="#" class="github col-md-4" title="Twitter link"></a>     
           </div>
         </section>
-        <section class="col-md-4">
-          <h4>Contáctanos</h4>
-          <p>No nos conformamos con ser buenos, queremos ser excelentes. Tu opinión nos ayuda a marcar la diferencia<p> 
-          <strong>feedback@fcinema.org</strong>
+        <section class="col-md-5">
+          <h4>Download fcinema</h4>
+          <!-- Button trigger modal -->
+          <button class="btn btn-success" data-toggle="modal" data-target="#download">Download</button><br>
+          <small>Version 0.2</small>
+          
 
         </section>
         <section class="col-md-4">
-          <h3>Twitter timeline</h3>
+          <h4>Contact Us</h4>
+          <p>We care for our users, your opinion make us (even) better<p> 
+          <strong>feedback@fcinema.org</strong>
+
         </section>
       </article>
     </footer>
@@ -151,5 +143,30 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    
+
+
+<!-- Modal 
+================================================== -->
+
+<div class="modal fade" id="download" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Download fcinema</h4>
+      </div>
+      <div class="modal-body">
+        <h4>Selecciona tu sistema operativo</h4>
+        <button class="btn btn-primary" data-toggle="modal" data-target="#download">Windows <img src="img/win8.png" width="32px"> </button>
+        <button class="btn btn-primary" data-toggle="modal" data-target="#download">Mac <img src="img/apple.png" width="32px"></button>
+        <button class="btn btn-primary" data-toggle="modal" data-target="#download">Linux <img src="img/linux.png" width="32px"></button>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
   </body>
 </html>
