@@ -8,7 +8,7 @@
     <meta name="author" content="Ricardo José García">
     <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
-    <title>How it works || Fcinema</title>
+    <title>How it works || fcinema</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -48,7 +48,7 @@
             <ul class="nav navbar-nav navbar-right">
               <li><a href="index.html">Home</a></li>
               <li class="active"><a href="#">How it works</a></li>
-              <li><a href="#">Colaborate</a></li>
+              <li><a href="collaborate.html">Collaborate</a></li>
               <li><a href="#">About</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
@@ -59,67 +59,68 @@
 
     </article>
     
-    <div class="container row" id="prueba">
-      <article class="col-md-3">      
-        <ul class="nav nav-pills nav-stacked fpills">
-          <li class="current"><a href="#start">Installation</a></li>
-          <li><a href="#use">Using fcinema</a></li>
-        </ul>
-      </article> <!-- /sidenav -->
-      
-      <article class="col-md-9">
-        <section id="start">
-          <h1>Installation</h1>
-            <!--Panels for install-->
-            <div class="panel-group" id="accordion">
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                      Windows
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapseOne" class="panel-collapse collapse in">
-                  <div class="panel-body">
-                    <p>After downloading fcinema the latest version, double-clik the executable file, the plugin will be added to it's folder and you can start watching the film.</p>
-                    
-                    <iframe width="560" height="315" src="http://www.youtube.com/embed/VpZmIiIXuZ0" frameborder="0" allowfullscreen></iframe>
+    <div class="container-fluid" id="aside-nav">
+      <div class="row">
+        <article class="col-md-3">      
+          <ul class="nav nav-pills nav-stacked fpills">
+            <li class="current"><a href="#start">Installation</a></li>
+            <li><a href="#use">Using fcinema</a></li>
+          </ul>
+        </article> <!-- /sidenav -->
+        
+        <article class="col-md-9">
+          <section id="start">
+            <h1>Installation</h1>
+              <!--Panels for install-->
+              <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                        Windows
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseOne" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                      <p>After downloading fcinema the latest version, double-clik the executable file, the plugin will be added to it's folder and you can start watching the film.</p>
+                      
+                      <iframe width="100%" src="http://www.youtube.com/embed/VpZmIiIXuZ0" frameborder="0" allowfullscreen></iframe>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                      Mac OS X
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapseTwo" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <p>It's a little harder to install, but don't worry, it keeps being easy, and just after it leaves beta, you could just launch a <i>.dmg</i>. For now, go to applications folder and right-click <i>Vlc.app</i>. Press <i>Show Package Content</i> and navigate to a folder called <i>Plugins</i> or create it. Then, you just have to copy the plugin file to that folder and start enjoying.</p>
-                    
-                    <iframe width="560" height="315" src="http://www.youtube.com/embed/VpZmIiIXuZ0" frameborder="0" allowfullscreen></iframe>
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                        Mac OS X
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseTwo" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p>It's a little harder to install, but don't worry, it keeps being easy, and just after it leaves beta, you could just launch a <i>.dmg</i>. For now, go to applications folder and right-click <i>Vlc.app</i>. Press <i>Show Package Content</i> and navigate to <i>/Contents/MacOS/share/lua/extensions/Plugins</i> or create it. Then, you just have to copy the plugin file to that folder and start enjoying.</p>
+                      
+                      <iframe width="100%" src="http://www.youtube.com/embed/VpZmIiIXuZ0" frameborder="0" allowfullscreen></iframe>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                      Linux
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapseThree" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <p>First of all, congratulations, the plugin is being developed over a Linux distribution so you will be the first on receive updates. However, installing is a bit complex,...</p>
-                    
-                    <iframe width="560" height="315" src="http://www.youtube.com/embed/VpZmIiIXuZ0" frameborder="0" allowfullscreen></iframe>
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                        Linux
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseThree" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p>First of all, congratulations, the plugin is being developed over a Linux distribution so you will be the first on receive updates. That said, to install over a Linux distribution you have to copy the <i>.lua</i> file at <i>/usr/lib/vlc/lua/extensions/</i></p>
+                      
+                      <iframe width="100%" src="http://www.youtube.com/embed/VpZmIiIXuZ0" frameborder="0" allowfullscreen></iframe>
+                    </div>
                   </div>
                 </div>
-              </div>
             </div>
             <!--End of panels-->
         </section>
@@ -129,36 +130,35 @@
           <p>Load the film as you would normally do. After that, once it is prepared, go to <i>Vlc -> extensions</i> and press <i>fcinema</i>, our software will start looking for the film in our database and it will show you the results. Select the sort of scenes you want to omit and start watching the film, you wouldn't ever notice that those scenes are being skipped</p>
         </section>
       </article>
-      
+      </div>
     </div>
     
     <footer>
-      <article class="container row">
-        <section class="logos col-md-3">
-          <h4>Sigue a Fcinema en:</h4><br>
-          
-          <div class="row">
-            <a href="#" class="twitter col-md-4" title="Twitter link"></a>
-            <a href="#" class="facebook col-md-4" title="Twitter link"></a>
-            <a href="#" class="github col-md-4" title="Twitter link"></a>     
-          </div>
-        </section>
-        <section class="col-md-5">
-          <h4>Download fcinema</h4>
-          <!-- Button trigger modal -->
-          <button class="btn btn-success" data-toggle="modal" data-target="#download">Download</button><br>
-          <small>Version 0.2</small>
-          
-
-        </section>
-        <section class="col-md-4">
-          <h4>Contact Us</h4>
-          <p>We care for our users, your opinion make us (even) better<p> 
-          <strong>feedback@fcinema.org</strong>
-
-        </section>
-      </article>
+      <div class="container">
+        <article class="row">
+          <section class="logos col-md-3">
+            <h4>Follow fcinema at:</h4><br>
+            <ul class="list-inline">
+              <li><a href="#" class="twitter" title="Twitter link"></a></li>
+              <li><a href="#" class="facebook" title="Twitter link"></a></li>
+              <li><a href="#" class="github " title="Twitter link"></a></li>  
+            </ul>
+          </section>
+          <section class="col-md-5">
+            <h4>Download fcinema</h4>
+            <!-- Button trigger modal -->
+            <button class="btn btn-success" data-toggle="modal" data-target="#download">Download</button><br>
+            <small>Version 0.2</small>
+          </section>
+          <section class="col-md-4">
+            <h4>Contact Us</h4>
+            <p>We care for our users, your opinion make us (even) better<p> 
+            <strong>feedback@fcinema.org</strong>
+          </section>
+        </article>
+      </div>
     </footer>
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -171,24 +171,27 @@
 <!-- Modal 
 ================================================== -->
 
-<div class="modal fade" id="download" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="myModalLabel">Download fcinema</h4>
-      </div>
-      <div class="modal-body">
-        <h4>Selecciona tu sistema operativo</h4>
-        <a href="http://fcinema.org/beta.zip" alt="downlad for windows"><button class="btn btn-primary">Windows <img src="img/win8.png" width="32px"></button></a>
-        <button class="btn btn-primary" disabled="disabled">Mac <img src="img/apple.png" width="32px"></button>
-        <button class="btn btn-primary" disabled="disabled">Linux <img src="img/linux.png" width="32px"></button>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  <div class="modal fade" id="download" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title" id="myModalLabel">Download fcinema</h4>
+        </div>
+        <div class="modal-body container">
+            <h4>Selecciona tu sistema operativo</h4>
+            <a href="http://fcinema.org/beta.zip" alt="downlad for windows"><button class="btn btn-primary">Windows <img src="img/win8.png" width="32px"></button></a>
+            <a href="#" alt="downlad for windows"><button class="btn btn-primary" disabled="disabled">Mac <img src="img/apple.png" width="32px"></button></a>
+            <a href="http://fcinema.org/beta.zip" alt="downlad for windows"><button class="btn btn-primary">Linux <img src="img/linux.png" width="32px"></button></a><br>
+            <small>OS X version not available yet, <a href="collaborate.html">help us</a></small>
+        </div> 
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
+  
+  
   </body>
 </html>
