@@ -1,16 +1,15 @@
 #Fcinema
 
 Fcinema's project official website  
-Version 0.6 (pre-alpha)
+Version 0.8 (pre-alpha)
 ***
 
-#####Technical Characteristics
+<h3>Technical Characteristics</h3>
 
 * Twitter Bootstrap
 * Responsive design
 * HTML5 & CSS3
-* Parallax effect (coming soon)
-
+* 
 #####Disclaimer
 This repository is undergoing heavy develpment
 
@@ -21,6 +20,12 @@ https://www.iconfinder.com/icons/199499/arrow_camera_film_movie_multimedia_play_
 
 Lighthouse icon by freepik 
 http://www.freepik.com/free-vector/round-vector-nautical-flat-set_716011.htm
+
+####Design notes
+
+#####Logo
+Green gradient: #26e432 to #4da205 at 55%, square diagonal (120º).<br>
+Logo font: Helvetica neue ultralight and bold
 
 
 

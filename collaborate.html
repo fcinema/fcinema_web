@@ -8,7 +8,7 @@
     <meta name="author" content="Ricardo José García">
     <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
-    <title>fcinema</title>
+    <title>Collaborate || fcinema</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -16,8 +16,7 @@
     <!-- Custom styles for this template -->
     <link href="css/custom.css" rel="stylesheet">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:100,300,700' rel='stylesheet' type='text/css'>
-
+    
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
@@ -30,7 +29,7 @@
 
   <body>
     
-    <article class="landing" id="principal">
+    <article class="landing">
       <nav class="navbar navbar-default" role="navigation">
         <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
@@ -47,67 +46,53 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="#">Home</a></li>
+              <li><a href="index.html">Home</a></li>
               <li><a href="how.html">How it works</a></li>
-              <li><a href="collaborate.html">Collaborate</a></li>
+              <li class="active"><a href="#">Collaborate</a></li>
               <li><a href="#">About</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
       </nav>
       
-      <h1>Watching a film in family, the easy way</h1>
-      
-      <img src="img/mac.png" class="img-responsive" width="100%" alt="film throught fcinema">
+      <h1>Collaborate</h1>
     </article>
     
-    <div class="container">
-      <h1 class="">¿Why fcinema?</h1>      
-      <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Tranquillity. <span class="text-muted">The main advantage.</span></h2>
-          <p class="lead">Watch a film without fear, the scenes you choose would be ommitted, even offline.</p>
-          <p class="lead" style="margin-top:10%"><small>*for offline use, you should have pre-download the film data.</small></p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive visible-md visible-lg" src="img/safe.jpg" alt="Lighthouse, fcinema keep you safe" width="220">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive visible-md visible-lg" src="img/play.png" alt="play button for fcinema" width="220">
-        </div>
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Easy to use. <span class="text-muted">One-click filter.</span></h2>
-          <p class="lead">In fcinema, we work to make our software as easy as possible, so so you can start watching a film in a sip.</p>
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">By volunteers. <span class="text-muted">For free, forever.</span></h2>
-          <p class="lead">At fcinema we think that watching a film without worries should be a right, so we offer fcinema for free. That said, we have to keep server goings, so a donation (or help) always comes handy.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive visible-md visible-lg" src="img/voluntarios.png" alt="fcinema sass code image" width="220">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
-      
+    <div class="container-fluid" id="aside-nav">
+      <div class="row">
+        <article class="col-md-3">      
+          <ul class="nav nav-pills nav-stacked fpills">
+            <li class="current"><a href="#develop">Develop</a></li>
+            <li><a href="#design">Design</a></li>
+            <li><a href="#upload">Upload data</a></li>
+            <li><a href="#donate">Donate</a></li>
+          </ul>
+        </article> <!-- /sidenav -->
         
+        <article class="col-md-9">
+          <section id="develop">
+            <h1>Develop</h1>
+            
+            <p>Know how to code in Lua? HTML maybe? fcinema's project it's fully available at Github, among it's wiki and it's website. Also, we manage ourselves through a Trello board. If you want to help code the plugin, contact with <i>Miguel Arrieta</i> (you can find him at the Github repo). If you want to help making the project's site better, contact with <i>Ricardo García</i>.
+                      
+          </section>
+        
+          <section id="design">
+            <h1>Design</h1>
+            <p>If you know how to design VLC plugins in Lua, or want to help designing the website, logo, or whatever you think it's not-as-pretty as it should be, contact through Github with <i>Ricardo García</i></p>
+          </section>
+          
+          <section id="upload">
+            <h1>Upload film data</h1>
+            <p>fcinema is a database-based project, that is, we need a big film database to be used. That's why one of the most important (and enjoyable) ways of help is watching films (or taking data from other sources) and uploading it's not-so-appropiate content. However, we are under closed beta now, so contact us if you want to contribute.</p>
+          </section>
+          
+          <section id="donate">
+            <h1>Donate</h1>
+            <p>As fcinema is freely available, we don't have any source of income, but we have to maintain our servers, so the plugin keep working. If you think the plugin is useful, make us a donation using the <i>donate</i> button, it will open a completely-safe PayPal pay method.</p>
+          </section>
       </article>
+      </div>
     </div>
     
     <footer>
@@ -135,6 +120,7 @@
         </article>
       </div>
     </footer>
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
