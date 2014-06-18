@@ -7,18 +7,17 @@
 */
 
 /*Import other stylesheets*/
-
+@import "_normalize.scss";
 @import "variables.scss";
 @import "navbar.scss";
 @import "navpill.scss";
 @import "footer.scss";
 
 
-
 @media (min-width: 1024px) {
-  .container{
+  /*.container{
     max-width: 80%;
-  }
+  }*/
   #aside-nav{
     max-width: 80%;
     margin-left: 5%;
@@ -55,6 +54,8 @@ body{
 
 .landing{
   background-image: url('../img/jumbotron.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .landing h1{
