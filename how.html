@@ -83,9 +83,9 @@
                   </div>
                   <div id="collapseOne" class="panel-collapse collapse in">
                     <div class="panel-body">
-                      <p>After downloading fcinema the latest version, double-clik the executable file, the plugin will be added to it's folder and you can start watching the film.</p>
+                      <p>After downloading fcinema the latest version, double-clik the executable file and... yep, that's all folks! It was easy, wasn't it?</p>
                       
-                      <iframe width="100%" src="http://www.youtube.com/embed/VpZmIiIXuZ0" frameborder="0" allowfullscreen></iframe>
+                      <!--<iframe width="100%" src="http://www.youtube.com/embed/VpZmIiIXuZ0" frameborder="0" allowfullscreen></iframe>-->
                     </div>
                   </div>
                 </div>
@@ -101,7 +101,7 @@
                     <div class="panel-body">
                       <p>It's a little harder to install, but don't worry, it keeps being easy, and just after it leaves beta, you could just launch a <i>.dmg</i>. For now, go to applications folder and right-click <i>Vlc.app</i>. Press <i>Show Package Content</i> and navigate to <i>/Contents/MacOS/share/lua/extensions/Plugins</i> or create it. Then, you just have to copy the plugin file to that folder and start enjoying.</p>
                       
-                      <iframe width="100%" src="http://www.youtube.com/embed/VpZmIiIXuZ0" frameborder="0" allowfullscreen></iframe>
+                      <!-- <iframe width="100%" src="http://www.youtube.com/embed/VpZmIiIXuZ0" frameborder="0" allowfullscreen></iframe> -->
                     </div>
                   </div>
                 </div>
@@ -115,9 +115,9 @@
                   </div>
                   <div id="collapseThree" class="panel-collapse collapse">
                     <div class="panel-body">
-                      <p>First of all, congratulations, the plugin is being developed over a Linux distribution so you will be the first on receive updates. That said, to install over a Linux distribution you have to copy the <i>.lua</i> file at <i>/usr/lib/vlc/lua/extensions/</i></p>
+                      <p>First of all, congratulations, the plugin is being developed over a Linux distribution so you will be the first on receive updates. That said, to install over a Linux distribution you have to copy the <i>fcinema.lua</i> file at <i>/usr/lib/vlc/lua/extensions/</i> and thats all! </p>
                       
-                      <iframe width="100%" src="http://www.youtube.com/embed/VpZmIiIXuZ0" frameborder="0" allowfullscreen></iframe>
+                      <!-- <iframe width="100%" src="http://www.youtube.com/embed/VpZmIiIXuZ0" frameborder="0" allowfullscreen></iframe> -->
                     </div>
                   </div>
                 </div>
@@ -127,7 +127,63 @@
         
         <section id="use">
           <h1>Using fcinema</h1>
-          <p>Load the film as you would normally do. After that, once it is prepared, go to <i>Vlc -> extensions</i> and press <i>fcinema</i>, our software will start looking for the film in our database and it will show you the results. Select the sort of scenes you want to omit and start watching the film, you wouldn't ever notice that those scenes are being skipped</p>
+          <div class="panel-group" id="accordion2">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+                    Basic
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseFour" class="panel-collapse collapse in">
+                <div class="panel-body">
+                  <h4> Open </h4>
+                    <p> Load the film as you would normally do. Go to <i>Vlc -> View</i> and press <i>fcinema</i>.<br>
+                    That's all for you, our software will autorecognize the film and download the list on inapropiate content</p>
+                  <h4> Select </h4>
+                    <p> Select your personal criteria for inapropiate content. You can use fast filtering by category and severity or manually select specific scenes.</p>
+                  <h4> Enjoy </h4>
+                    <p> Click on <i>Watch film</i> and enjoy. You wouldn't ever notice that those scenes are being skipped </p>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion2" href="#collapseFive">
+                    Advanced
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseFive" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <h4>Manually selecting the film</h4>
+                    <p>Sometimes autorecognition may fail. Introduce film title (currently only in english) and click "Select". If wrong film was selected go to <i>Advanced -> Change Movie</i>.</p>
+                  <h4>Manual calibration</h4>
+                    <p>fcinema automatically handle differences between film versions. However this is not always possible if we want to ensure a high quality calibration. A friendly scene is used to calibrate the film. You will be prompted to click when the scene begins. After checking the accuracy of the calibration click <i>Okey</i> and enjoy!</p>
+                  <h4>Changing the language</h4>
+                    <p>Go to <i>Advanced</i>, select your language and click <i>Change language</i> </p>
+                  </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion2" href="#collapseSix">
+                    Ninja
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseSix" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <h4>Adding new scenes</h4>
+                    <p>You can add new scenes by pressing "Q" during playback or by using the <i>Scene editor</i></p>  
+                </div>
+              </div>
+            </div>
+          </div>
+
         </section>
       </article>
       </div>
