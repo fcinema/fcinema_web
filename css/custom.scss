@@ -5,7 +5,6 @@
   Web developer: Ricardo García
   
 */
-
 /*Import other stylesheets*/
 @import "_normalize.scss";
 @import "variables.scss";
@@ -13,6 +12,25 @@
 @import "navpill.scss";
 @import "footer.scss";
 
+
+
+body{
+  color: #5f5f5f;
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.featurette-heading{
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 700;
+}
+
+
+.navbar-brand{
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
 
 @media (min-width: 1024px) {
   /*.container{
@@ -25,10 +43,6 @@
   }
 }
 
-body{
-  color: #5f5f5f;
-  text-align: justify;
-}
 
 /* Header */
 
