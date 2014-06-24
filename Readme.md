@@ -2,7 +2,7 @@
 <h1>fcinema</h1>
 
 fcinema's project official website  
-Version 0.8 (alpha)
+Version 0.9 (alpha)
 <hr>
 
 
