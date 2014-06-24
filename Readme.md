@@ -1,7 +1,7 @@
 
 #fcinema
 fcinema's project official website  
-Version 0.9 (alpha)
+Version 0.9.6 (Beta)
 <hr>
 
 
