@@ -18,7 +18,7 @@
     <link href="css/custom.css" rel="stylesheet">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans:700|Lato:100,300,400|Open+Sans' rel='stylesheet' type='text/css'>
-    
+
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -29,7 +29,7 @@
   </head>
 
   <body>
-    
+
     <article class="landing">
       <nav class="navbar navbar-default" role="navigation">
         <div class="container-fluid">
@@ -43,7 +43,7 @@
             </button>
             <a class="navbar-brand" href="index.html"><b>f</b>cinema</a>
           </div>
-      
+
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
@@ -54,13 +54,13 @@
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
       </nav>
-      
+
       <h1 class="subheading">Collaborate</h1>
     </article>
-    
+
     <div class="container-fluid" id="aside-nav">
       <div class="row">
-        <article class="col-md-3">      
+        <article class="col-md-3">
           <ul class="nav nav-pills nav-stacked fpills">
             <li  class="current"><a href="#upload">Watch films</a></li>
             <li><a href="#develop">Develop</a></li>
@@ -68,34 +68,57 @@
             <li><a href="#donate">Donate</a></li>
           </ul>
         </article> <!-- /sidenav -->
-        
+
         <article class="col-md-9">
 
           <section id="upload">
             <h1 class="subheading">Watch films</h1>
-            <p>The magic of fcinema wouldn't be possible without a complete database. One of the most important (and enjoyable) ways of collab is watching films. Pick some pop-corn and a good film. If you find inappropiate content just press "Q". When the film is over, a few more clicks and everyone could enjoy a family-friendly film. As we are in beta, please contact us if you want to contribute.</p>
+            <p>The magic of fcinema wouldn't be possible without a complete database. One of the most important (and enjoyable) ways of collab is watching films. Pick some pop-corn and a good film. If you find inappropiate content just press "+". When the film is over, a few more clicks and everyone could enjoy a family-friendly film. As we are in beta, please contact us if you want to contribute.</p>
           </section>
 
 
           <section id="develop">
             <h1 class="subheading">Develop</h1>
-            <p>Know how to code in Lua? HTML maybe? fcinema's project is fully available at <a href="https://github.com/fcinema" alt="fcinema at Github">Github</a>, among it's wiki and it's website. Also, we manage ourselves through a Trello board. If you want to help code the plugin, contact with <a href="https://github.com/arrietaeguren" alt="Miguel Arrieta at Github"><i>Miguel Arrieta</i></a>. If you want to help making the project's site better, contact with <a href="https://github.com/rjgarciam" alt="Ricardo García at Github"><i>Ricardo García</i></a>.
+            <p>Know how to code in C++? Qt? HTML maybe? fcinema's project is fully available at <a href="https://github.com/fcinema" alt="fcinema at Github">Github</a>, among it's wiki and it's website. If you want to help code contact with <a href="https://github.com/arrietaeguren" alt="Miguel Arrieta at Github"><i>Miguel Arrieta</i></a>. If you want to help making the project's site better, contact with <a href="https://github.com/rjgarciam" alt="Ricardo García at Github"><i>Ricardo García</i></a>.
           </section>
-        
+
           <section id="design">
             <h1 class="subheading">Design</h1>
-            <p>If you know how to design VLC plugins in Lua, or want to help designing the website, logo, or whatever you think it's not-as-pretty as it should be, contact through <a href="https://github.com/fcinema" alt="fcinema's website at Github">Github</a> with <a href="https://github.com/rjgarciam" alt="Ricardo García at Github"><i>Ricardo García</i></a></p>
+            <p>If want to help designing the website, logo, or whatever you think it's not-as-pretty as it should be, contact through <a href="https://github.com/fcinema" alt="fcinema's website at Github">Github</a> with <a href="https://github.com/rjgarciam" alt="Ricardo García at Github"><i>Ricardo García</i></a></p>
           </section>
-          
+
           <section id="donate">
             <h1 class="subheading">Donate</h1>
             <p>As fcinema is freely available, we don't have any source of income, but we have to maintain our servers, so the plugin keep working. If you think the plugin is useful, make us a donation using the <i>donate</i> button, it will open a completely-safe PayPal pay method.</p>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="JQDRF48VQGQ6Y">
+              <input type="hidden" name="on0" value="Select an amount">
+              <select class="form-control" style="width: 150px;" name="os0">
+                <option value="Tiny">3€ al mes</option>
+                <option value="Small">5€ al mes</option>
+                <option value="Normal">10€ al mes</option>
+                <option value="Big">20€ al mes</option>
+                <option value="Huge">50€ al mes</option>
+              </select>
+              <input type="hidden" name="currency_code" value="EUR">
+              <input type="image" src="https://www.paypalobjects.com/es_ES/ES/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal. La forma rápida y segura de pagar en Internet.">
+              <img alt="" border="0" src="https://www.paypalobjects.com/es_ES/i/scr/pixel.gif" width="1" height="1">
+            </form>
+
+<!--             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="BRKF9ZQCNDY3W">
+              <input type="image" src="https://www.paypalobjects.com/es_ES/ES/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal. La forma rápida y segura de pagar en Internet.">
+              <img alt="" border="0" src="https://www.paypalobjects.com/es_ES/i/scr/pixel.gif" width="1" height="1">
+            </form> -->
+
           </section>
-          
+
       </article>
       </div>
     </div>
-    
+
     <footer>
       <div class="container">
         <article class="row">
@@ -104,18 +127,17 @@
             <ul class="list-inline">
               <li><a href="#" class="twitter" title="Twitter link"></a></li>
               <li><a href="https://www.facebook.com/pages/Fcinema/456878974428028?ref=hl" class="facebook" title="Facebook link"></a></li>
-              <li><a href="https://github.com/fcinema/fcinema_web" class="github " title="Github link"></a></li>  
+              <li><a href="https://github.com/fcinema/fcinema_web" class="github " title="Github link"></a></li>
             </ul>
           </section>
           <section class="col-md-5">
             <h4>Download fcinema</h4>
             <!-- Button trigger modal -->
-            <button class="btn btn-success" data-toggle="modal" data-target="#download">Download</button><br>
-            <small>Version 0.2</small>
+            <button class="btn btn-success" data-toggle="modal" data-target="#download" disabled>Download Beta</button><br>
           </section>
           <section class="col-md-4">
             <h4>Contact Us</h4>
-            <p>We care for our users, your opinion make us (even) better<p> 
+            <p>We care for our users, your opinion make us better<p>
             <b>feedback@fcinema.org</b>
           </section>
         </article>
@@ -128,10 +150,10 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    
 
 
-<!-- Modal 
+
+<!-- Modal
 ================================================== -->
 
   <div class="modal fade" id="download" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -139,22 +161,22 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-          <h4 class="modal-title" id="myModalLabel">Download fcinema</h4>
+          <h4 class="modal-title" id="myModalLabel">Download fcinema beta</h4>
         </div>
         <div class="modal-body container">
-            <h4>Selecciona tu sistema operativo</h4>
-            <a href="https://github.com/fcinema/vlc-plugin/archive/master.zip" alt="downlad for windows"><button class="btn btn-primary">Windows <img src="img/win8.png" width="32px"></button></a>
-            <a href="#" alt="downlad for windows"><button class="btn btn-primary" disabled="disabled">Mac <img src="img/apple.png" width="32px"></button></a>
-            <a href="https://github.com/fcinema/vlc-plugin/archive/master.zip" alt="downlad for windows"><button class="btn btn-primary">Linux <img src="img/linux.png" width="32px"></button></a><br>
+            <h4>Beware this a <b>BETA</b> it works but it is not polished</h4>
+            <a href="http://fcinema.org/fcinema-beta.exe" alt="downlad for windows"><button class="btn btn-primary">Windows <img src="img/win8.png" width="32px"></button></a>
+            <a href="#" alt="downlad for mac"><button class="btn btn-primary" disabled="disabled">Mac <img src="img/apple.png" width="32px"></button></a>
+            <a href="#" alt="downlad for linux"><button class="btn btn-primary" disabled="disabled">Linux <img src="img/linux.png" width="32px"></button></a><br>
             <p class="small">*OS X version not available yet, <a href="collaborate.html" style="margin-left:0px">help us</a></p>
-        </div> 
+        </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
   </div>
-  
-  
+
+
   </body>
 </html>
