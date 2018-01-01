@@ -128,7 +128,7 @@
             <h4>Download fCinema</h4>
             <!-- Button trigger modal -->
             <button class="btn btn-success" data-toggle="modal" data-target="#download">Download</button><br>
-            <small>Version 0.1.1</small>
+            <small id="latestVersion"></small>
           </section>
           <section class="col-md-4">
             <h4>Contact Us</h4>
@@ -145,6 +145,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 
 
 
@@ -160,8 +161,8 @@
         </div>
         <div class="modal-body container">
             <h4>Choose your OS</h4>
-            <a href="https://github.com/fcinema/desktop-app/releases/download/v0.1.1/fCinema.exe" alt="Windows"><button class="btn btn-primary">Windows <img src="img/win8.png" width="32px"></button></a>
-            <a href="https://github.com/fcinema/desktop-app/releases/download/v0.1.1/fCinema.dmg" alt="MacOS"><button class="btn btn-primary">MacOS<img src="img/apple.png" width="32px"></button></a>
+            <a id="winURL" alt="Windows"><button class="btn btn-primary">Windows <img src="img/win8.png" width="32px"></button></a>
+            <a id="macURL" alt="MacOS"><button class="btn btn-primary">MacOS<img src="img/apple.png" width="32px"></button></a>
             <a href="https://github.com/fcinema/desktop-app/" alt="linux"><button class="btn btn-primary">Linux <img src="img/linux.png" width="32px"></button></a><br>
         </div> 
         <div class="modal-footer">
